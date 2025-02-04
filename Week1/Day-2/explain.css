@@ -1,0 +1,100 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    height: 100vh;
+  }
+.boxes{
+    background-color: blue;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiimagazine.com/content/uploads/2020/12/plumeria-2-Eric-Tessmer-Flickr-1024x708.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.box{
+    background-color: cadetblue;
+    /* display: inline-block; */
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+
+.box-1{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: yellow;
+}
+
+.btn{
+    padding:5px  20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    transition: all .3s ease;
+}
+
+
+.btn:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: red;
+    background-image: url("https://wpcdn.us-east-1.vip.tn-cloud.net/www.hawaiimagazine.com/content/uploads/2020/12/plumeria-2-Eric-Tessmer-Flickr-1024x708.jpg");
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
