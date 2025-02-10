@@ -29,20 +29,36 @@
 // decleration 
 
 
-let Sum=function (num1,num2){
-    return num1+num2
+// let Sum=function (num1,num2){
+//     return num1+num2
+// }
+
+
+// console.log(Sum(20,30))
+
+
+// // arrow 
+
+
+// let Total=(num1,num2)=>{
+//     return num1+num2
+// }
+
+
+// console.log(Total(100,50))
+
+
+
+
+function FindEven(arr){
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]%2==0){
+            return false
+        }
+    }
+
+    return true
 }
 
 
-console.log(Sum(20,30))
-
-
-// arrow 
-
-
-let Total=(num1,num2)=>{
-    return num1+num2
-}
-
-
-console.log(Total(100,50))
+console.log(FindEven([3,5,7,8]))
